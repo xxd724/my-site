@@ -1,0 +1,18 @@
+@import './variable.scss';
+html{
+    color: $words;
+    font-family: '微软雅黑';
+    overflow: hidden;
+}
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+    &:hover{
+        color: $primary;
+    }
+}
